@@ -3,9 +3,7 @@
 #include <queue>
 using namespace std;
 
-void bfs(int destination) {
-
-}
+// https://school.programmers.co.kr/learn/courses/30/lessons/132266
 
 vector<int> ºÎ´ëº¹±Í(int n, vector<vector<int>> roads, vector<int> sources, int destination) {
     vector<int> answer;

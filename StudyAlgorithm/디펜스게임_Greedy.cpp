@@ -4,7 +4,8 @@
 
 using namespace std;
 
-int 디펜스게임(int n, int k, vector<int> enemy) {
+// https://school.programmers.co.kr/learn/courses/30/lessons/142085
+int 디펜스게임_Greedy(int n, int k, vector<int> enemy) {
     if (k >= enemy.size()) return enemy.size();
     int answer = k;
     priority_queue<int> muguk;

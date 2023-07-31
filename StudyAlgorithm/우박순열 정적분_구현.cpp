@@ -3,6 +3,8 @@
 #include <math.h>
 using namespace std;
 
+// https://school.programmers.co.kr/learn/courses/30/lessons/134239
+
 vector<double> 우박수열_정적분(int k, vector<vector<int>> ranges) {
     vector<double> answer;
     vector<double> vec;

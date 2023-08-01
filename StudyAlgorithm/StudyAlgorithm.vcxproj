@@ -138,6 +138,7 @@
     <ClCompile Include="우박순열 정적분_구현.cpp" />
     <ClCompile Include="일곱 난쟁이_완전탐색.cpp" />
     <ClCompile Include="점찍기_수학.cpp" />
+    <ClCompile Include="택배상자.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

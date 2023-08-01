@@ -69,5 +69,8 @@
     <ClCompile Include="롤케이크나누기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="택배상자.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

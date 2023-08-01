@@ -3,6 +3,8 @@
 #include <algorithm>
 using namespace std;
 
+//https://school.programmers.co.kr/learn/courses/30/lessons/131704
+
 int solution(vector<int> order) {
     int answer = 1;
     int before_order = order[0];

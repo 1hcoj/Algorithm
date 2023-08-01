@@ -5,7 +5,7 @@ using namespace std;
 
 // https://school.programmers.co.kr/learn/courses/30/lessons/132265
 
-int 롤케이크나누기_MAP(vector<int> topping) {
+int 롤케이크자르기_MAP(vector<int> topping) {
     int answer = 0;
     map<int, int> lefts; lefts.insert({ topping[0],1 });
     map<int, int> rights;

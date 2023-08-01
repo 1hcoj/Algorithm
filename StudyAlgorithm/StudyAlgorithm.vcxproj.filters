@@ -34,6 +34,9 @@
     <Filter Include="소스 파일\최단경로\BFS">
       <UniqueIdentifier>{363de4a7-6470-45d4-9ab9-560fa7f31f8c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Stack">
+      <UniqueIdentifier>{cf39ecc3-0473-49af-af14-ac2197070e37}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -69,8 +72,8 @@
     <ClCompile Include="롤케이크나누기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="택배상자.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="택배상자_stack.cpp">
+      <Filter>소스 파일\Stack</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -13,6 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Greedy">
+      <UniqueIdentifier>{c5165b8c-f21e-4e9c-98b3-64d4f503eaba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dp">
+      <UniqueIdentifier>{d238856a-b9cf-4848-bd4f-a3dc6f73ac38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\완전탐색">
+      <UniqueIdentifier>{a97de10d-e2e2-4bca-8676-4adb0bc76d81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\구현">
+      <UniqueIdentifier>{cb09eb2e-52f8-4a81-89cf-ffa687187d80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\수학">
+      <UniqueIdentifier>{a44b9178-ee84-483d-a652-ec78a742e191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\최단경로">
+      <UniqueIdentifier>{967acddd-9b3a-410f-80b0-6553daa43d09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\최단경로\BFS">
+      <UniqueIdentifier>{363de4a7-6470-45d4-9ab9-560fa7f31f8c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -21,34 +42,31 @@
     <ClCompile Include="요격시스템.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="과제 제출하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="광물캐기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="리코쳇로봇.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="디펜스게임.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="점찍기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="귤고르기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="숫자카드 나누기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="우박순열 정적분.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="디펜스게임_Greedy.cpp">
+      <Filter>소스 파일\Greedy</Filter>
     </ClCompile>
-    <ClCompile Include="부대복귀.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="일곱 난쟁이_완전탐색.cpp">
+      <Filter>소스 파일\완전탐색</Filter>
     </ClCompile>
-    <ClCompile Include="일곱 난쟁이.cpp">
+    <ClCompile Include="우박순열 정적분_구현.cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
+    <ClCompile Include="점찍기_수학.cpp">
+      <Filter>소스 파일\수학</Filter>
+    </ClCompile>
+    <ClCompile Include="부대복귀_최단경로.cpp">
+      <Filter>소스 파일\최단경로\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="귤고르기_구현.cpp">
+      <Filter>소스 파일\구현</Filter>
+    </ClCompile>
+    <ClCompile Include="롤케이크나누기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

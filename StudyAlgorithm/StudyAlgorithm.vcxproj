@@ -128,17 +128,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="과제 제출하기.cpp" />
     <ClCompile Include="광물캐기.cpp" />
-    <ClCompile Include="귤고르기.cpp" />
-    <ClCompile Include="디펜스게임.cpp" />
-    <ClCompile Include="리코쳇로봇.cpp" />
-    <ClCompile Include="부대복귀.cpp" />
+    <ClCompile Include="귤고르기_구현.cpp" />
+    <ClCompile Include="디펜스게임_Greedy.cpp" />
+    <ClCompile Include="롤케이크나누기.cpp" />
+    <ClCompile Include="부대복귀_최단경로.cpp" />
     <ClCompile Include="숫자카드 나누기.cpp" />
     <ClCompile Include="요격시스템.cpp" />
-    <ClCompile Include="우박순열 정적분.cpp" />
-    <ClCompile Include="일곱 난쟁이.cpp" />
-    <ClCompile Include="점찍기.cpp" />
+    <ClCompile Include="우박순열 정적분_구현.cpp" />
+    <ClCompile Include="일곱 난쟁이_완전탐색.cpp" />
+    <ClCompile Include="점찍기_수학.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

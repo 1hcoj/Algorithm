@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int ±¤¹°Ä³±â(vector<int> picks, vector<string> minerals) {
+int ê´‘ë¬¼ìºê¸°(vector<int> picks, vector<string> minerals) {
     int answer = 0;
     int pick_num = 0;
     priority_queue<pair<int,int>> scores;

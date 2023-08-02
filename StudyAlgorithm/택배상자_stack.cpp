@@ -5,7 +5,7 @@ using namespace std;
 
 //https://school.programmers.co.kr/learn/courses/30/lessons/131704
 
-int solution(vector<int> order) {
+int 택배상자(vector<int> order) {
     int answer = 1;
     int before_order = order[0];
     int index = 0;
